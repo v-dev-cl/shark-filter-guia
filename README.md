@@ -134,5 +134,5 @@ económica.
 
 ## ¿Problemas?
 
-Si algo falla, el estado arriba a la derecha y la ventana de consola muestran el error. Anótalo y
-escríbenos a **`<COMPLETAR_CON_CONTACTO_DE_SOPORTE>`**.
+Si algo falla, revisa el estado arriba a la derecha y la ventana de consola: ahí se muestra el
+error exacto.
