@@ -11,13 +11,16 @@ Guardados.
 
 ## 1. Descarga
 
-Descarga el archivo para tu sistema operativo desde la última versión:
+Descarga el archivo para tu sistema operativo desde la
+[última versión](https://github.com/v-dev-cl/shark-filter-guia/releases/latest):
 
-- **Windows:** `shark-filter_windows_amd64.exe`
-- **macOS:** `shark-filter_darwin_arm64` (Apple Silicon) o `shark-filter_darwin_amd64` (Intel)
-- **Linux:** `shark-filter_linux_amd64` o `shark-filter_linux_arm64`
+- **Windows:** [shark-filter_v1.0.0_windows_amd64.exe](https://github.com/v-dev-cl/shark-filter-guia/releases/download/v1.0.0/shark-filter_v1.0.0_windows_amd64.exe)
+- **macOS (Apple Silicon):** [shark-filter_v1.0.0_darwin_arm64](https://github.com/v-dev-cl/shark-filter-guia/releases/download/v1.0.0/shark-filter_v1.0.0_darwin_arm64)
+- **macOS (Intel):** [shark-filter_v1.0.0_darwin_amd64](https://github.com/v-dev-cl/shark-filter-guia/releases/download/v1.0.0/shark-filter_v1.0.0_darwin_amd64)
+- **Linux (x86-64):** [shark-filter_v1.0.0_linux_amd64](https://github.com/v-dev-cl/shark-filter-guia/releases/download/v1.0.0/shark-filter_v1.0.0_linux_amd64)
+- **Linux (ARM64):** [shark-filter_v1.0.0_linux_arm64](https://github.com/v-dev-cl/shark-filter-guia/releases/download/v1.0.0/shark-filter_v1.0.0_linux_arm64)
 
-> 📥 Enlace de descarga: **`<COMPLETAR_CON_EL_ENLACE_DE_DESCARGA>`**
+> 📥 Todas las versiones: **https://github.com/v-dev-cl/shark-filter-guia/releases**
 
 ---
 
