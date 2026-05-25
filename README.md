@@ -14,11 +14,11 @@ Guardados.
 Descarga el archivo para tu sistema operativo desde la
 [última versión](https://github.com/v-dev-cl/shark-filter-guia/releases/latest):
 
-- **Windows:** [shark-filter_v1.0.0_windows_amd64.exe](https://github.com/v-dev-cl/shark-filter-guia/releases/download/v1.0.0/shark-filter_v1.0.0_windows_amd64.exe)
-- **macOS (Apple Silicon):** [shark-filter_v1.0.0_darwin_arm64](https://github.com/v-dev-cl/shark-filter-guia/releases/download/v1.0.0/shark-filter_v1.0.0_darwin_arm64)
-- **macOS (Intel):** [shark-filter_v1.0.0_darwin_amd64](https://github.com/v-dev-cl/shark-filter-guia/releases/download/v1.0.0/shark-filter_v1.0.0_darwin_amd64)
-- **Linux (x86-64):** [shark-filter_v1.0.0_linux_amd64](https://github.com/v-dev-cl/shark-filter-guia/releases/download/v1.0.0/shark-filter_v1.0.0_linux_amd64)
-- **Linux (ARM64):** [shark-filter_v1.0.0_linux_arm64](https://github.com/v-dev-cl/shark-filter-guia/releases/download/v1.0.0/shark-filter_v1.0.0_linux_arm64)
+- **Windows:** [shark-filter_v1.1.0_windows_amd64.exe](https://github.com/v-dev-cl/shark-filter-guia/releases/download/v1.1.0/shark-filter_v1.1.0_windows_amd64.exe)
+- **macOS (Apple Silicon):** [shark-filter_v1.1.0_darwin_arm64](https://github.com/v-dev-cl/shark-filter-guia/releases/download/v1.1.0/shark-filter_v1.1.0_darwin_arm64)
+- **macOS (Intel):** [shark-filter_v1.1.0_darwin_amd64](https://github.com/v-dev-cl/shark-filter-guia/releases/download/v1.1.0/shark-filter_v1.1.0_darwin_amd64)
+- **Linux (x86-64):** [shark-filter_v1.1.0_linux_amd64](https://github.com/v-dev-cl/shark-filter-guia/releases/download/v1.1.0/shark-filter_v1.1.0_linux_amd64)
+- **Linux (ARM64):** [shark-filter_v1.1.0_linux_arm64](https://github.com/v-dev-cl/shark-filter-guia/releases/download/v1.1.0/shark-filter_v1.1.0_linux_arm64)
 
 > 📥 Todas las versiones: **https://github.com/v-dev-cl/shark-filter-guia/releases**
 
@@ -68,6 +68,8 @@ Cuando el estado arriba a la derecha diga **Conectado**, verás tu cuenta y la l
 En **02 · Canales** aparecen los canales de OfertasShark a los que perteneces.
 
 - Marca los canales que quieres seguir y elige su **moneda** (CLP, ARS, MXN, COP, USD).
+- También aparecen tus **grupos** (con la etiqueta **Grupo**): puedes seguir ofertas publicadas en
+  grupos, no solo en canales.
 - Usa el **buscador** para encontrar un canal rápido (búsqueda tolerante: "nke" encuentra "Nike").
 - El contador **"N activos"** y la opción **"Solo activos"** te muestran qué tienes seleccionado.
 - Presiona **Guardar canales**.
@@ -126,6 +128,36 @@ económica.
 - Mantén la app **abierta** para recibir ofertas.
 - Cada vez que guardas algo, aparece una **notificación** (verde = ok, roja = error).
 - Para detenerla: cierra la ventana (Windows) o presiona `Ctrl-C` en la terminal (macOS/Linux).
+
+---
+
+## 9. Administrar usuarios en tus canales y grupos (avanzado)
+
+> Solo útil si **administras** canales o grupos (con permiso para agregar/expulsar miembros).
+
+En **07 · Conjuntos** puedes crear **conjuntos** de canales/grupos y, en una sola operación,
+**agregar** o **quitar** un usuario en todos ellos:
+
+1. Crea un conjunto (ponle un nombre) y, en **Canales**, marca los canales/grupos que lo componen
+   (puedes **buscar** y ver **"Solo seleccionados"**). Los que administras aparecen marcados.
+2. En **Agregar / quitar usuario**: elige el conjunto, escribe el **@usuario** o su **ID numérico**,
+   elige **Agregar** o **Quitar (kick)** y pulsa **Previsualizar**.
+3. Revisa el plan por canal y pulsa **Confirmar y aplicar**. Verás el resultado de cada canal
+   (`ok` / `omitido` / `error`).
+
+Notas:
+- Solo se actúa donde tienes permisos de admin; el resto se **omite** con su motivo.
+- **Quitar** es un *kick*: el usuario sale pero puede volver a entrar.
+- Para agregar por **ID numérico**, el usuario debe ser **contacto tuyo** o compartir algún
+  canal/grupo contigo (límite de Telegram). Con **@usuario** siempre funciona.
+
+---
+
+## 10. Acceso remoto (hospedar en un servidor, opcional)
+
+Por defecto la app corre solo en tu PC sin contraseña. Si quieres entrar **desde una URL**
+(hospedándola en un servidor gratis), puedes protegerla con una **contraseña** y exponerla por
+HTTPS con un túnel de Cloudflare. Guía paso a paso: **[hosting.md](hosting.md)**.
 
 ---
 
