@@ -14,11 +14,11 @@ Guardados.
 Descarga el archivo para tu sistema operativo desde la
 [última versión](https://github.com/v-dev-cl/shark-filter-guia/releases/latest):
 
-- **Windows:** [shark-filter_v1.1.0_windows_amd64.exe](https://github.com/v-dev-cl/shark-filter-guia/releases/download/v1.1.0/shark-filter_v1.1.0_windows_amd64.exe)
-- **macOS (Apple Silicon):** [shark-filter_v1.1.0_darwin_arm64](https://github.com/v-dev-cl/shark-filter-guia/releases/download/v1.1.0/shark-filter_v1.1.0_darwin_arm64)
-- **macOS (Intel):** [shark-filter_v1.1.0_darwin_amd64](https://github.com/v-dev-cl/shark-filter-guia/releases/download/v1.1.0/shark-filter_v1.1.0_darwin_amd64)
-- **Linux (x86-64):** [shark-filter_v1.1.0_linux_amd64](https://github.com/v-dev-cl/shark-filter-guia/releases/download/v1.1.0/shark-filter_v1.1.0_linux_amd64)
-- **Linux (ARM64):** [shark-filter_v1.1.0_linux_arm64](https://github.com/v-dev-cl/shark-filter-guia/releases/download/v1.1.0/shark-filter_v1.1.0_linux_arm64)
+- **Windows:** [shark-filter_v1.1.1_windows_amd64.exe](https://github.com/v-dev-cl/shark-filter-guia/releases/download/v1.1.1/shark-filter_v1.1.1_windows_amd64.exe)
+- **macOS (Apple Silicon):** [shark-filter_v1.1.1_darwin_arm64](https://github.com/v-dev-cl/shark-filter-guia/releases/download/v1.1.1/shark-filter_v1.1.1_darwin_arm64)
+- **macOS (Intel):** [shark-filter_v1.1.1_darwin_amd64](https://github.com/v-dev-cl/shark-filter-guia/releases/download/v1.1.1/shark-filter_v1.1.1_darwin_amd64)
+- **Linux (x86-64):** [shark-filter_v1.1.1_linux_amd64](https://github.com/v-dev-cl/shark-filter-guia/releases/download/v1.1.1/shark-filter_v1.1.1_linux_amd64)
+- **Linux (ARM64):** [shark-filter_v1.1.1_linux_arm64](https://github.com/v-dev-cl/shark-filter-guia/releases/download/v1.1.1/shark-filter_v1.1.1_linux_arm64)
 
 > 📥 Todas las versiones: **https://github.com/v-dev-cl/shark-filter-guia/releases**
 
@@ -32,6 +32,11 @@ Descarga el archivo para tu sistema operativo desde la
    haz clic en **Más información → Ejecutar de todas formas**.
 3. Se abre una pequeña ventana negra (consola) mientras la app funciona. **Para detenerla, cierra
    esa ventana.**
+
+> ⚠️ **¿Antivirus la marca como amenaza (`Trojan:Win32/Gracing` u otra)?** Es un **falso positivo**:
+> el antivirus de Windows a veces marca por error los programas hechos en Go. **Desde la v1.1.1 esto
+> está corregido** — asegúrate de descargar la última versión. Si descargaste una versión anterior,
+> bórrala y baja la v1.1.1.
 
 ### macOS
 1. La primera vez, haz **clic derecho → Abrir** (para saltar el aviso de Gatekeeper).
