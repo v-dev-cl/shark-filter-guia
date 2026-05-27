@@ -34,17 +34,18 @@ Descarga el archivo para tu sistema operativo desde la
    esa ventana.**
 
 > ⚠️ **¿El antivirus la marca como amenaza (`Trojan:Win32/Wacatac.B!ml`, `Gracing` u otra)?** Es un
-> **falso positivo**: el antivirus de Windows marca por error muchos programas hechos en Go (le pasa
-> incluso a binarios oficiales de Google/Microsoft). La app es segura y de código abierto. Ya está
-> **reportado a Microsoft** para que lo corrijan en una actualización de definiciones.
+> **falso positivo** ya **confirmado y corregido por Microsoft** (revisaron la app y quitaron la
+> detección). El antivirus de Windows marca por error muchos programas hechos en Go; la app es
+> segura y de código abierto. Con las definiciones de antivirus al día **no debería aparecer ningún
+> aviso**.
 >
-> **Mientras tanto, para usarla igual:**
-> 1. Si Windows Defender la puso en cuarentena: abre **Seguridad de Windows → Protección antivirus
->    y contra amenazas → Historial de protección**, busca la detección y elige **Acciones → Permitir**.
-> 2. Vuelve a ejecutar `shark-filter.exe`. Si aparece *"Windows protegió tu PC"*, haz clic en
+> **Si descargaste antes y Windows aún la bloquea** (tiene la detección vieja en caché), actualiza
+> las definiciones:
+> 1. **Seguridad de Windows → Protección antivirus y contra amenazas → Buscar actualizaciones**.
+> 2. Si quedó en cuarentena: en **Historial de protección** busca la detección y elige
+>    **Acciones → Permitir**.
+> 3. Vuelve a ejecutar `shark-filter.exe`. Si aparece *"Windows protegió tu PC"*, haz clic en
 >    **Más información → Ejecutar de todas formas**.
-> 3. Para que el aviso desaparezca solo más adelante: **Seguridad de Windows → Buscar
->    actualizaciones** (de definiciones) y vuelve a analizar el archivo.
 
 ### macOS
 1. La primera vez, haz **clic derecho → Abrir** (para saltar el aviso de Gatekeeper).
